@@ -11,6 +11,6 @@ int	ft_recursive_factorial(int nb)
 #include <stdio.h>
 int main(void)
 {
-	int i = ft_recursive_factorial(10);
+	int i = ft_recursive_factorial(15);
 	printf("%d\n", i);
 }

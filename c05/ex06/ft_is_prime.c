@@ -13,3 +13,11 @@ int		ft_is_prime(int nb)
 	}
 	return (1);
 }
+
+#include <stdio.h>
+int main(void)
+{
+
+    int i = ft_is_prime(433);
+    printf("%d\n", i);
+}
